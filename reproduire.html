@@ -7,7 +7,55 @@
     <title>Document</title>
 </head>
 <body>
-    <p style="color:rgb(92, dc, e5);>
-    </p>
+    <fieldset>
+        <form>
+        <legend>Votre identité</legend>
+        <div>
+            <label for="nom">Nom</label>
+            <input type="text" placeholder="1.Nom">
+        </div>
+        <div>
+            <label for="prénom">Prénom</label>
+            <input type="text" placeholder="2.prénom">
+        </div>
+        <div>
+            <label for="Adresse mail">Adresse mail</label>
+            <input type="text" placeholder="3.Adresse mail">
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Adresse de livraison</legend>
+        <div>
+            <label for="Adresse:">1.Adresse:</label>
+        <textarea name="Adresse" id="1.adresse" cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <label for="">2.Code postal</label>
+        <input type="text" placeholder="2.code postal">
+        </div>
+<div>
+    <label for="">3.Ville</label>
+    <input type="text" placeholder="3.ville">
+    </div>
+    </fieldset>
+    <fieldset>
+        <legend> Informations de réglement</legend>
+        <label for="">1.Type de carte bancaire:</label>
+    <div> <input type="radio"select>VISA</input></div> 
+    <div> <input type="radio"select>Masstercard</input></div>
+   </div>
+   <div>
+       <label for="">Numero de carte</label>
+       <input type="text" placeholder="3.Numero de carte">
+   </div>
+       <div>
+           <label for="">code de securité
+               <input type="text" placeholder="4.Nom du titulaire">
+            </label>
+       </div>
+    </fieldset>
+    <fieldset><input type="text" placeholder="J'achete"></fieldset>
+
+    </form>
 </body>
 </html>
